@@ -1,0 +1,290 @@
+﻿body
+{
+}
+@media only screen and (min-width:120px) and (max-width:600px)
+{
+    .tdpadding1{padding-left: 8px;}
+    .tddisplay{display: block;}
+    .tddisplayN{display: none;}
+    .tddisplayABN{display: block;text-align: left;width: 100%;line-height: 31px;}
+    .toppadding{padding-top: 70px !important; margin-left:47px !important;}
+    .leftpadding{padding-left: 35px;}
+    .tblpadding{padding-left: 0px !important;padding-top: 50px;padding-right:60px;}
+    .tblpadding{padding-left: 0px !important;padding-top: 50px;padding-right:60px;}
+    .toppadding1{padding-top: 90px !important;}
+    .padding-left{padding-left:0px!important;}
+    .pd{padding-left:50px!important ;padding-right: 0px !important;}
+}
+.padding-left{padding-left:60px}
+.tdpadding1
+{
+    padding-left: 8px;
+}
+.b-form-properties {
+    padding: 26px 28px 0 31px;
+    margin-bottom: 30px;
+}
+
+.b-some-examples__item_info_level:first-child {
+    border: 0;
+    color: #000;
+}
+.b-form-properties .b-full-search-form_check {
+    margin-bottom: 31px;
+}
+
+.b-some-examples__item_info_level:first-child {
+    border: 0;
+    color: #000;
+}
+
+.b-some-examples__item_info_level:first-child {
+    border: 0;
+    color: #000;
+}
+
+.f-some-examples__item_name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.b-some-examples__item_info_level {
+    border-top: 1px solid #d9d9d9;
+    padding: 10px 0 10px 0;
+}
+
+.f-primary-b {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.b-full-search-form {
+    /* background: #e26228; */
+    border-radius: 3px;
+    margin-bottom: 32px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.28);
+    position: relative;
+    z-index: 2;
+}
+.errmsg
+{
+    color: Red;
+    font-size: 14px;
+    height: 20px;
+}
+.th
+{
+    color: #ffffff;
+    background-color: #e31e24 !important;
+}
+
+table tr:nth-child(odd) td, .tableRowOdd
+{
+    background-color: transparent !important;
+}
+
+.tblpadding
+{
+    padding-left: 60px;
+    padding-top: 50px;
+}
+.swdth
+{
+    width: 5%;
+}
+@media only screen and (min-width:120px) and (max-width:600px)
+{
+    .GridHead{display: none;}
+    .gridborder{width: 100% !important;border-collapse:separate;}
+    .swdth{width: 100%;}
+    .lblindex > td{display: block;}
+    .lb3 > tr{width:100%!important;border-bottom:1px solid #CCC!important;}
+    .lb3 > td{display: block;padding-left: 15px;empty-cells: hide;width:100%!important;}
+    .lb3 td:nth-of-type(1):before{content: "Sr No. :";font-weight: bold;}
+    .lb3 td:nth-of-type(2):before{content: "Location :";font-weight: bold;}
+    .lb3 td:nth-of-type(3):before{content: "Off Site/ On Site :";font-weight: bold;}
+    .width{width:100%;}
+    .bg-primary{background-color:#FFECB6!important;color:White;line-height: 31px;border: 1px solid;}
+    .bg-s{background-color:#F8F8F8!important;color:Black;line-height: 31px;border: 1px solid;}
+    
+    .lbk > tr{border: 1px solid #CCC;}
+    .lbk > td{display: block;padding-left: 15px;empty-cells: hide;width:100%!important;}
+    .lbk td:nth-of-type(1):before{content: "Sr No. :";font-weight: bold;}
+    .lbk td:nth-of-type(2):before{content: "Branch :";font-weight: bold;}
+    .lbk td:nth-of-type(3):before{content: "Location :";font-weight: bold;}
+     
+    .lbpn > tr{width:100%!important;border-bottom:1px solid #CCC!important;}
+    .lbpn > td{display: block;padding-left: 15px;empty-cells: hide;width:100%!important;}
+    .lbpn td:nth-of-type(1):before{content: "Sr No. :";font-weight: bold;}
+    .lbpn td:nth-of-type(2):before{content: "Notice :";font-weight: bold;}
+    
+    .lbtndr > tr{width:100%!important;border-bottom:1px solid #CCC!important;}
+    .lbtndr > td{display: block;padding-left: 15px;empty-cells: hide;width:100%!important;}
+    .lbtndr td:nth-of-type(1):before{content: "Tender Name :";font-weight: bold;}
+    .lbtndr td:nth-of-type(2):before{content: "EMD :";font-weight: bold;}
+    .lbtndr td:nth-of-type(3):before{content: "Doc. Cost :";font-weight: bold;}
+    .lbtndr td:nth-of-type(4):before{content: "Open Date :";font-weight: bold;}
+    .lbtndr td:nth-of-type(5):before{content: "Last Date :";font-weight: bold;}
+    
+    .lbactn > tr{width:100%!important;border-bottom:1px solid #CCC!important;}
+    .lbactn > td{display: block;padding-left: 15px;empty-cells: hide;width:100%!important;}
+    .lbactn td:nth-of-type(1):before{content: "Notice :";font-weight: bold;}
+    .lbactn td:nth-of-type(2):before{content: "EMD :";font-weight: bold;}
+    .lbactn td:nth-of-type(3):before{content: "Doc. Cost :";font-weight: bold;}
+    .lbactn td:nth-of-type(4):before{content: "Open Date :";font-weight: bold;}
+    .lbactn td:nth-of-type(5):before{content: "Last Date :";font-weight: bold;}
+    
+    .label2 > td{display:block;padding-left: 15px;float: left;color: Blue;}
+    .label2 td:nth-of-type(1):before{content: "";font-weight: bold;}
+    .label2 td:nth-of-type(2):before{content: "";font-weight: bold;}
+    .label2 td:nth-of-type(3):before{content: "";font-weight: bold;}
+    .label2 td:nth-of-type(4):before{content: "";font-weight: bold;}
+    .label2 td:nth-of-type(5):before{content: "";font-weight: bold;}
+    .label2 td:nth-of-type(6):before
+    {
+        content: "";
+        font-weight: bold;
+    }
+
+    .label3 > td
+    {
+        display: block;
+        padding-left: 15px;
+        line-height: 20px;
+        padding-bottom: 5px;
+    }
+    .label3 td:nth-of-type(1):before
+    {
+        content: "";
+        font-weight: bold;
+    }
+    .label3 td:nth-of-type(3):before
+    {
+        content: "";
+        font-weight: bold;
+    }
+    .label3 td:nth-of-type(5):before
+    {
+        content: "";
+        font-weight: bold;
+    }
+
+    .label5 > td
+    {
+        display: block;
+        padding-left: 15px;
+    }
+    .label5 td:nth-of-type(1):before
+    {
+        content: "";
+        font-weight: bold;
+    }
+    .label5 td:nth-of-type(2):before
+    {
+        content: "";
+        font-weight: bold;
+    }
+    .label5 td:nth-of-type(3):before
+    {
+        content: "";
+        font-weight: bold;
+    }
+    .label5 td:nth-of-type(4):before
+    {
+        content: "";
+        font-weight: bold;
+    }
+    .label5 td:nth-of-type(5):before
+    {
+        content: "";
+        font-weight: bold;
+    }
+    .label5 td:nth-of-type(6):before
+    {
+        content: "";
+        font-weight: bold;
+    }
+    .label5 td:nth-of-type(6):before
+    {
+        content: "";
+        font-weight: bold;
+    }
+
+    .tdpadding1
+    {
+        padding-left: 5px;
+    }
+    .tddisplay
+    {
+        display: block;
+    }
+    .tddisplayN
+    {
+        display: none;
+    }
+    .pdDiv1
+    {
+        float: left;
+        width: 5%;
+    }
+    .pubhead
+    {
+        padding-left:0px !important;
+        padding-top:70px !important;   
+        padding-right:0px !important;
+    }
+    .tendhead
+    {
+        padding-left:10px;
+        padding-top:80px !important;
+    }
+    .actnhead
+    {
+        padding-left:10px;
+        padding-top:80px !important;
+    }
+}
+.bg-primary{background-color:#FFECB6!important;color:Black!important;line-height: 31px;border: 1px solid #FFFFFF;font-size:15px;font-weight:bold;}
+.bg-s{background-color:#F8F8F8!important;color:Black;line-height: 31px;border: 1px solid #FFFFFF;font-size:15px;display:block;}
+.calc
+{
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Verdana, Helvetica, sans-serif;
+    background-color: #e31e24 !important;
+    color: #FFFFFF !important;
+    text-align: center;
+    margin-left: 0px;
+    padding-top: 3px;
+    text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 15px;
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    -moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+    padding: 5px !important;
+}
+.calc:hover
+{
+    background-color: #e31e24;
+    color: #FFFFFF !important;
+}
+.pubhead
+    {        
+        padding-left:35px
+    }
+    .tendhead
+    {
+        padding-left:0px;
+        padding-top:0px;
+    }
