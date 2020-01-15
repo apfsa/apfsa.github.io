@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{font-family: 'Montserrat', sans-serif;}
+.dncalendar-inactive {
+	opacity: 0.2;
+}
+
+.dncalendar-header {
+	margin: 20px 0;
+    position: relative;
+}
+
+.dncalendar-header h2 {
+	color: #434343;
+    font-size: 22px;
+    line-height: 1;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dncalendar-header .dncalendar-links {
+	height: 19px;
+    width: 100%;
+   /* position: absolute;*/
+    /*top: -5px;*/
+    margin-top: -40px;
+}
+
+.dncalendar-header .dncalendar-links div {
+	cursor: pointer;
+    width: 35px;
+    height: 35px;
+    -webkit-user-select: none;
+    touch-action: pan-y;
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.dncalendar-header .dncalendar-links .dncalendar-next-month {
+	position: absolute;
+    right: 6px;
+    background: url('https://img.icons8.com/flat_round/64/000000/arrow.png');
+    background-size: 100%;
+}
+
+.dncalendar-header .dncalendar-links .dncalendar-prev-month {
+	position: absolute;
+    left: 10px;
+    background: url('https://img.icons8.com/flat_round/64/000000/circled-left.png') ;
+    background-size: 100%;
+}
+
+.dncalendar-body {
+	margin: 0 0 10px;
+}
+
+.dncalendar-body table {
+	width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+.dncalendar-body table th, td {
+	display: table-cell;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.dncalendar-body thead td {
+	color: #222;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 11px 0 !important;
+}
+
+.dncalendar-body tbody tr td {
+	width: 13%;
+	border-top: 1px solid #ddd;
+	color: #bdbdbd;
+	background: #f8f8f8;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.dncalendar-body tbody td#calendarClick {
+	cursor: pointer;
+}
+
+.dncalendar-body tbody td.calendarClick {
+	color: #434343;
+	background: #fff;
+}
+	
+.dncalendar-body tbody td .entry {
+	padding: 9px 0 6px;
+	position: relative
+}
+
+.dncalendar-body tbody td.calendarClick:active {
+	background: #ddd
+}
+
+/*.dncalendar-body tbody td .entry:after
+{
+	content:attr(data-title);
+	left:0;
+	position:absolute;
+	font-size: 8px;
+    font-weight: 600;
+    bottom: -2px;
+	bottom:1px;
+	text-align:center;
+	width:100%
+}
+*/
+.dncalendar-body table td.holiday {
+	color: #c55 !important;
+}
+
+.dncalendar-body table td.calendarClick.holiday {
+	color: #9c0303 !important;
+}
+
+.dncalendar-body table td.default-date {
+	border: 1px solid #96D4FD;
+	color: #96D4FD !important;
+	background: #e6f2fa;
+}
+
+.dncalendar-body table td.calendarClick.default-date {
+	border: 1px solid #0d7fcc;
+	color: #0d7fcc !important;
+	background: #e6f2fa;
+}
+
+.dncalendar-body table td.today-date {
+	border: 1px solid #7EE699;
+    color: #7EE699 !important;
+    background: #E9FDEE;
+}
+
+.dncalendar-body table td.calendarClick.today-date {
+	border:0px solid #0d61cc;
+    color: #222 !important;
+    background: #ffa218;
+    border-radius: 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.dncalendar-body table td.note{ background-color: rgba(253, 109, 109, 0.11); }
+.dncalendar-body table td.calendarClick.note {
+	position: relative;
+    background-color: #fd6d6d;
+    color: #fff;
+}
+.dncalendar-body table td.optional_note{ background-color: rgba(148, 204, 148, 0.27); }
+.dncalendar-body table td.calendarClick.optional_note {
+	position: relative;
+    background-color: #4ba14b;
+    color: #fff;
+}
+
+ 
+
+/*.dncalendar-body table td.note:before {
+	display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    content: "";
+    border-top: 5px solid #c55;
+    border-right: 5px solid #c55;
+    border-left: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+.dncalendar-body table td.calendarClick.note:before {
+	display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    content: "";
+    border-top: 5px solid #d00;
+    border-right: 5px solid #d00;
+    border-left: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}*/
+
+.dncalendar-note-list {
+	list-style: none;
+	margin-left: 4.5%;
+	margin-bottom: 20px;
+	padding: 0;
+	color: #999
+}
+
+.dncalendar-note-list .date {
+	color: #f84c4c;  
+}
+.dncalendar-note-list .date span{ text-align: left;  color: #000; }
+ .label {
+          font-size: 100%;
+          color: #333333;
+        }
