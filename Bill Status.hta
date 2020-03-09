@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BILL STATUS IN CFMS</title>
+<meta name="description" content="KNOW YOUR BILL STATUS IN CFMS">
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="keywords" content="KNOW YOUR BILL STATUS, BILL IN CFMS, CFMS BILL STATUS">
+<meta name="author" content="A.P. Forest Services Association">
+<link rel="icon" type="image/jpg" href="#"/>
+      <meta name="theme-color" content="#fff5bd" />
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta name="theme-color" content="#fff5bd" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Stylish">
+
+<style type="text/css">
+:root{
+	background-color:#FFFFFF;
+	align:center;
+	}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+input[type="Submit"] {
+       width:210px;
+       height:30px;
+       font-family:Stylish;
+}		 
+   
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+         h1 {
+            color: green;
+            text-align: center;
+        }
+        
+        h2 {
+            color: red;
+	    font-size:24px;
+            text-align: center;
+        }
+
+        h4 {
+            color: blue;
+	    font-size:24px;
+            text-align: center;
+        }
+        
+    </style>
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<script>
+function fun(x)
+{
+	f.hdn.value=x;
+	f.submit();
+}
+
+</script>
+</head>
+<body >
+<div class="center">
+<a href="https://www.apfsa.net">
+<img src="https://static.wixstatic.com/media/e340a2_0a3b50a96f05433abc36cdc1d65ed317~mv2.png" alt="apfsa title" width="100%"/></a>
+
+<h1 align=center style="padding:2px;margin:2px;font-size:24px;" > KNOW YOUR CFMS BILL STATUS</h1>
+<div class="center">
+<form name="f" method="get" action="https://prdcfms.apcfss.in:44300/sap/bc/ui5_ui5/sap/zbillstatus/index.html">
+<input type="hidden" name="sap-client" value="350">
+<h3 align="center";><span>Enter Your CFMS Token Number</span><br/></h3>
+<h3 align="center";><input type="text" name="billNum" placeholder="Bill No." size="25" maxlength="12" value="2019-" ></span><span></span></br> 
+<input name="Submit" type="Submit" value="SUBMIT" class="button" align="center"; style="padding:2px;margin:2px;font-size:20px;"/>
+</form></h3>
+</div>
+<h1 align=center style="padding:2px;margin:2px;font-size:24px;" >
+    Powered by <a href="https://www.apfsa.net"> www.apfsa.net </a>designed by K.V.S.RAJKUMAR </h1></div>
+</body>
+<script>
+    //$('#here').keyup(function(){
+    //    if(this.value.length ==10){
+    //      $('#Form').submit();
+    //    }
+    //});
+
+       function checkLength(e){
+        if(e.target.value.length===6){
+            document.forms["Form"].submit();
+        }
+    }
+
+</script>
+
+</body>
+</html>
